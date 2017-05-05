@@ -11,14 +11,6 @@ const url = 'mongodb://localhost:27017/myproject';
 app.use(bodyParser.json())
 app.use(express.static('public'));
 
-function messy(x, arr, callback){
-   console.log(x);
-   x.forEach((doc, err) => {
-     arr.push(doc);
-   });
-   callback();
-}
-
 app.get('/get-data/:id', function(req, res) {
    MongoClient.connect(url, function(err, db) {
      assert.equal(null, err);
