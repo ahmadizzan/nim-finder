@@ -32,7 +32,6 @@ app.get('/get-data/:id', function(req, res) {
          console.log(docs);
          res.send(docs);
       }, (err) => {
-         console.log('Unable to fetch todos ', err);
          res.send('yah error');
       });
 
