@@ -1,0 +1,28 @@
+{
+  "name": "tubes-net-arc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmadizzan/tubes-net-arc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahmadizzan/tubes-net-arc/issues"
+  },
+  "homepage": "https://github.com/ahmadizzan/tubes-net-arc#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cheerio": "^0.22.0",
+    "crawler": "^1.0.3",
+    "express": "^4.15.2",
+    "lodash": "^4.17.4",
+    "mongodb": "^2.2.26",
+    "request": "^2.81.0"
+  }
+}
